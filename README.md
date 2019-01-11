@@ -23,14 +23,14 @@ Sample JSON file:
       "aID": "A14871",
       "panels": [
         {
-          "panel": "Full",
+          "panel": "1",
           "metrics": [
             {
-              "metricsGroup": "Pgroup",
-              "command": "14871",
-              "PF (Mb)": "2525.33",
-              "Coding (Mb)": "1917.79",
-              "Median Bias": "0.00"
+              "a": "Pgroup",
+              "b": "14871",
+              "c": "2525.33",
+              "d": "1917.79",
+              "e": "0.00"
             }
           ]
         }
@@ -41,5 +41,3 @@ Sample JSON file:
 }
 
 
-Output:
-INSERT INTO test_table (metricsGroup,command,PFMb,CodingMb,MedianBias) VALUES ('Pgroup','14871','2525.33','1917.79','0.00');
