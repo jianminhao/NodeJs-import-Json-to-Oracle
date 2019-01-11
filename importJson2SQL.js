@@ -148,8 +148,7 @@ function importJson(rootPath) {
 }
 
 //================================================================================
-// File Parsing function. Check HTML table tag, find header as clolumn name and data
-// to generate SQL.
+// File Parsing function. Check Json to generate SQL.
 //================================================================================
 function parsemapping(inFilePath, fileType, roundID, libID) {
 	var htmlSource;
