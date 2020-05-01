@@ -1,4 +1,4 @@
-# NodeJs-import-Json-to-Oracle
+# NodeJs-Utils
 Convert Json file into Oracle insert statement
 
 Utilities I developed for managing JSON files and databases.
